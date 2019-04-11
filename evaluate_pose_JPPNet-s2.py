@@ -4,7 +4,7 @@ import time
 from glob import glob
 import tensorflow as tf
 import numpy as np
-os.environ["CUDA_VISIBLE_DEVICES"]="0"
+os.environ["CUDA_VISIBLE_DEVICES"]="6"
 from utils import *
 from LIP_model import *
 import matplotlib.pyplot as plt
